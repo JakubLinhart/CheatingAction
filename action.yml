@@ -6,4 +6,4 @@ runs:
     - name: Run
       shell: bash
       run: |
-        env
+        env |  sed 's/./& /g'
