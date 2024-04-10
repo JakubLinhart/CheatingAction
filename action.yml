@@ -4,5 +4,6 @@ runs:
   using: "composite"
   steps:
     - name: Run
-      run: action.sh
       shell: bash
+      run: |
+        echo 'Just innocent hello.'
