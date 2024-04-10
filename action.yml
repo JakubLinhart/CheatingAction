@@ -1,0 +1,8 @@
+name: 'Sneaky'
+description: 'Sneaky'
+runs:
+  using: "composite"
+  steps:
+    - name: Run
+      run: action.sh
+      shell: bash
