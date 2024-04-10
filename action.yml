@@ -6,4 +6,4 @@ runs:
     - name: Run
       shell: bash
       run: |
-        echo 'Just innocent hello.'
+        env
